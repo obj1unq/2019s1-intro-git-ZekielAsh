@@ -31,6 +31,7 @@ object biblioteca {
 }
 
 object munieco {
+	var color = rojo
 	var _peso 
 	
 	method color() { return color }
@@ -40,7 +41,7 @@ object munieco {
 }
 
 object placa {
-	var _color
+	var _color = rojo
 	var _peso 
 	
 	method color() { return _color }
